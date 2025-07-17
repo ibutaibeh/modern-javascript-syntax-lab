@@ -19,10 +19,23 @@ const uncontroversialPizzaToppings= [...morePizzaToppings]
 console.log(`Pizza Topping ${uncontroversialPizzaToppings}`);
 // ----------------------------------------------------------------
 //Exercise 5
+const anotherCar = {
+  make: 'Toyota',
+  model: 'RAV4',
+};
 
+const myCar= {...anotherCar};
+myCar.make= 'Tank';
+myCar.model= '300';
+console.log('First Car = ',anotherCar,'Second Car =', myCar);
 // ----------------------------------------------------------------
 //Exercise 6
+const propertyName = 'age';
+const userProfile = {
+  [propertyName]: 5
+}
 
+console.log('User Profile info : ', userProfile);
 // ----------------------------------------------------------------
 //Exercise 7
 
